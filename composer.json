@@ -1,5 +1,5 @@
 {
-  "name": "enqueue/magento-enqueue",
+  "name": "saad89/magento-enqueue",
   "type": "magento-module",
   "description": "Message Queue solutions for Magento. Supports RabbitMQ, AMQP, STOMP, Amazon SQS, Kafka, Redis, Google PubSub, Gearman, Beanstalk",
   "license": "MIT",

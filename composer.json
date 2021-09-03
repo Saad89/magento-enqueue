@@ -5,8 +5,8 @@
   "license": "MIT",
   "keywords": ["messaging", "queue", "amqp", "magento", "rabbitmq", "kafka", "redis", "sqs", "google-pubsub", "amazon-sqs", "gearman", "beanstalk"],
   "require": {
-    "enqueue/enqueue": "^0.8",
-    "enqueue/simple-client": "^0.8"
+    "saad89/enqueue": "^0.10.10",
+    "saad89/simple-client": "^0.10.11"
   },
   "extra":{
     "map": [
@@ -16,9 +16,14 @@
     ]
   },
   "repositories": {
-    "enqueue/enqueue": {
+    "saad89/enqueue": {
       "type": "vcs",
       "url": "git@github.com:Saad89/enqueue.git",
+      "trunk-path": "master"
+    },
+    "saad89/simple-client": {
+      "type": "vcs",
+      "url": "git@github.com:Saad89/simple-client.git",
       "trunk-path": "master"
     }
   }

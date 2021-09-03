@@ -14,5 +14,12 @@
       ["etc/modules/Enqueue_Enqueue.xml", "app/etc/modules/Enqueue_Enqueue.xml"],
       ["shell/enqueue.php", "shell/enqueue.php"]
     ]
+  },
+  "repositories": {
+    "enqueue/enqueue": {
+      "type": "vcs",
+      "url": "git@github.com:Saad89/enqueue.git",
+      "trunk-path": "master"
+    }
   }
 }
